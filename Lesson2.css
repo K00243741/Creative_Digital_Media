@@ -1,5 +1,5 @@
 html { 
-  background: url(/img/green.PNG) no-repeat center center fixed; 
+  background: url(green.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -23,7 +23,7 @@ h1 {
   padding: 12px;
   font-size: 18px;
   display: flex;
-  flex-flow: row-wrap;
+  flex-flow: wrap;
   display: inline-block;
 }
 

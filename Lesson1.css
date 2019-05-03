@@ -1,11 +1,10 @@
 html { 
-  background: url(/img/blue.png) no-repeat center center fixed; 
+  background: url(green.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
-
 body {
     width: 64%;
     margin-left: auto;
@@ -24,13 +23,13 @@ h1 {
   padding: 12px;
   font-size: 18px;
   display: flex;
-  flex-flow: row-wrap;
+  flex-flow: row;
   display: inline-block;
 }
 
 .header-right a:hover {
-  background-color: teal;
-  border: solid turquoise 0.5px;
+  background-color: darkseagreen;
+  border: solid green 0.5px;
 }
 
 .header-right {
@@ -52,6 +51,7 @@ input {
 	padding-left: 100px;
 	padding-right: 100px;
 }
+    
 	.Article h3 {
 	font-size: 2em;
 	padding-left: 100px;
@@ -94,14 +94,6 @@ input {
   }
 }
 
-@media screen and (max-width: 540px) {
-    body {
-    background-color: ;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-}
-}
 
 @media screen and (max-width: 540px) {
   .header a {
@@ -112,8 +104,13 @@ input {
     float: none;
 	display: block;
   }
+    body {
+    background-color: ;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
-
+}
 .wrapper {
   display: flex;  
   flex-flow: row wrap;
@@ -131,22 +128,23 @@ input {
 			float: right;
 			text-align: center; 
 			}
-footer {
-    bottom: 0;
-}
 .Article {
-    background-color: teal;
+    background-color: darkseagreen;
     padding: 20px;
-    border: solid turquoise 0.5px;
+    border: solid green 0.5px;
 }
 .footer {
-    background-color: teal;
+    background-color: darkseagreen;
     padding: 20px;
+    border: solid green 0.5px;
     font-size: 1.33em;
-    border: solid turquoise 0.5px;
 }
 footer {
-    background-color: teal;
+    background-color: darkseagreen;
     padding: 20px;
-    border: solid turquoise 0.5px;
+    border: solid green 0.5px;
+}
+img { 
+    margin-left: auto;
+    margin-right: auto;
 }
